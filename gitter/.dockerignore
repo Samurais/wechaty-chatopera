@@ -1,0 +1,11 @@
+*/node_modules
+.vscode
+.config
+.git/
+src/
+.yarn*
+tmp/
+data/
+logs/
+admin/
+app/demo.wechaty.json

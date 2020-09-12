@@ -1,0 +1,35 @@
+{
+  "name": "@chatopera/webot",
+  "version": "1.0.0",
+  "description": "Deliver bots via wechat, powered by Chatopera and Wechaty.",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/ava/cli.js",
+    "dev": "node_modules/nodemon/bin/nodemon.js --ignore demo.wechaty.json"
+  },
+  "author": "Hai Liang Wang<hain@chatopera.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@chatopera/sdk": "^2.5.3",
+    "debug": "^4.1.1",
+    "lodash": "^4.17.20",
+    "microloom": "^5.0.0",
+    "nodemailer": "^6.4.11",
+    "qrcode": "^1.4.4",
+    "qrcode-terminal": "^0.12.0",
+    "sanitize-filename": "^1.6.3",
+    "wechaty": "0.30.23",
+    "wechaty-puppet-gitter": "^0.4.6"
+  },
+  "devDependencies": {
+    "ava": "^3.12.1",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chatopera/webot"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
